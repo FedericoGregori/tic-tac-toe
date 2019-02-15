@@ -41,9 +41,9 @@ int main()
     }while (gameStatus == -1);
 
     if (gameStatus == 1)
-        printf("==>\aPlayer %d win ", --player);
+        printf("==>\aPlayer %d win \n", --player);
     else
-        printf("==>\aGame draw");
+        printf("==>\aGame draw\n");
 
     return 0;
 }
@@ -101,7 +101,7 @@ BOARD WITH PLAYERS MARK
  *******************************************************************/
 void displayBoard()
 {
-    system("cls");
+    system("clear");
 
     printf("\n\n\tTic Tac Toe\n\n");
 
